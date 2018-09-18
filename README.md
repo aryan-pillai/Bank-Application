@@ -3,7 +3,7 @@
 
 
 
-//LOGIN CODE
+/*LOGIN CODE*/
 
 
 String name=jTextField1.getText();
