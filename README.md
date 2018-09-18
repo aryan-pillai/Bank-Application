@@ -39,7 +39,7 @@ this.dispose();
 
 //LOGIN CODE
 
-LOGIN CODE:-
+
 String name=jTextField1.getText();
 String pwd= jPasswordField1.getText();
                if(name.equals(""))
