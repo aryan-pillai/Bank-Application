@@ -1,36 +1,44 @@
 # Bank-Application
 //JAVA CODE for a bank application
+
 //DEPOSIT CODE
 Deposit deposit = new Deposit();
 deposit.setVisible(true);
 this.dispose();
 
 //WITHDRAW CODE
+
 Withdraw withdraw = new Withdraw();
 withdraw.setVisible(true);
 this.dispose();           
 
 //TRANSFER  CODE
+
+
 Transfer transfer = new Transfer();
 transfer.setVisible(true);
 this.dispose();
 
 //NEW CUSTOMER
+
 Signup signup = new Signup();
 signup.setVisible(true);
 this.dispose(); 
 
 //ADMIN INFO CODE
+
 AdminInfo admin = new AdminInfo();
 admin.setVisible(true);
 this.dispose();
 
 //DELETE INFO CODE
+
 Delete delete = new Delete();
 delete.setVisible(true);
 this.dispose();
 
 //LOGIN CODE
+
 LOGIN CODE:-
 String name=jTextField1.getText();
 String pwd= jPasswordField1.getText();
@@ -225,6 +233,7 @@ int amount=Integer.parseInt(jTextField2.getText());
 // CODE FOR WITHDRAW PAGE
 
 // CODE FOR SHOW DETAILS BUTTON (SHOWS DETAILS OF THE USER WITH THE AFFILIATED ACCOUNT NUMBER)
+
 int accno=Integer.parseInt(jTextField1.getText());                       
        try
        {
@@ -281,6 +290,7 @@ int accno=Integer.parseInt(jTextField1.getText());
     }                         
 
 // CODE TO WITHDRAW MONEY FROM THE BANK
+
 int amount=Integer.parseInt(jTextField2.getText());
                  int accno=Integer.parseInt(jTextField1.getText());
 
@@ -371,6 +381,7 @@ int accno=Integer.parseInt(jTextField1.getText());
               System.out.println(e);}
 
 //CODE TO TRANSFER THE MONEY
+
 int accno=Integer.parseInt(jTextField1.getText());
         int accno2=Integer.parseInt(jTextField2.getText());
         int amount=Integer.parseInt(jTextField3.getText());
@@ -415,6 +426,7 @@ int accno=Integer.parseInt(jTextField1.getText());
 // CODE FOR ADMIN PAGE
 
 // SHOW DETAILS CODE
+
   int accno=Integer.parseInt(jTextField1.getText());
        String pwd= jTextField2.getText();
        
