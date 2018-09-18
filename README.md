@@ -1,41 +1,7 @@
 # Bank-Application
 //JAVA CODE for a bank application
 
-//DEPOSIT CODE
-Deposit deposit = new Deposit();
-deposit.setVisible(true);
-this.dispose();
 
-//WITHDRAW CODE
-
-Withdraw withdraw = new Withdraw();
-withdraw.setVisible(true);
-this.dispose();           
-
-//TRANSFER  CODE
-
-
-Transfer transfer = new Transfer();
-transfer.setVisible(true);
-this.dispose();
-
-//NEW CUSTOMER
-
-Signup signup = new Signup();
-signup.setVisible(true);
-this.dispose(); 
-
-//ADMIN INFO CODE
-
-AdminInfo admin = new AdminInfo();
-admin.setVisible(true);
-this.dispose();
-
-//DELETE INFO CODE
-
-Delete delete = new Delete();
-delete.setVisible(true);
-this.dispose();
 
 //LOGIN CODE
 
